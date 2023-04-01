@@ -1,5 +1,6 @@
-package guru.springframework.sfgrestbrewery.services;
+package guru.springframework.sfgrestbrewery.services.impl;
 
+import guru.springframework.sfgrestbrewery.services.CustomerService;
 import guru.springframework.sfgrestbrewery.web.model.CustomerDto;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
