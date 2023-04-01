@@ -17,6 +17,11 @@ You can access the API documentation [here](https://sfg-beer-works.github.io/bre
 docker build -f ./src/main/dockerbase/Dockerfile -t kbe-rest .
 ```
 
+## From Layers
+```shell
+docker build -f ./src/main/docker/Dockerfile -t kbe-rest .
+```
+
 ## Docker Run
 ```shell
 docker run -p 8080:8080 kbe-rest
