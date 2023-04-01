@@ -22,6 +22,18 @@ docker build -f ./src/main/dockerbase/Dockerfile -t kbe-rest .
 docker build -f ./src/main/docker/Dockerfile -t kbe-rest .
 ```
 
+## Build and Push to Docker Hub
+```shell
+$ docker login --username=maryatdocker
+Password:
+
+Login Succeeded
+```
+```shell
+mvn clean package -DskipTests docker:build docker:push 
+```
+![dockerhub](Screenshot%20from%202023-04-01%2020-51-01.png)
+
 ## Docker Run
 ```shell
 docker run -p 8080:8080 kbe-rest

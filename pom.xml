@@ -101,7 +101,7 @@
                     <verbose>true</verbose>
                     <images>
                         <image>
-                            <name>yeahbutstill/${project.artifactId}</name>
+                            <name>2819930922/${project.artifactId}</name>
                             <build>
                                 <assembly>
                                     <descriptorRef>artifact</descriptorRef>
